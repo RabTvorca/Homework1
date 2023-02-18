@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+.main {
+    background-image:url(images/main.jpg) ;
+    width: 100%;
+    padding-top: 217px;
+    padding-bottom: 493px;
+    padding-left: 120px;
+
+}
+.Header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+
+
+    color: #FFFFFF;
+    width: 708px;
+
+}
+.description {
+    
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 32px;
+/* or 178% */
+color: #FFFFFF;
+width: 481px;
+margin-bottom: 44px;
+
+}
+.description-select {
+font-weight: bold;
+}
+.main-button {
+    background: #9C0332;
+border-radius: 30px;
+width: 234.06px;
+height: 48.6px;
+border: none;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+.games-section {
+    display: flex;
+    background-color: #000915;
+    flex-wrap: wrap;
+    padding: 128px 120px;
+    gap: 32px;
+}
+
+.games {
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
+    width: 379px;
+    height: 300px;
+    border-radius: 16px;
+    display: flex;
+    align-items: flex-end;
+    padding: 32px;
+    background-size: cover;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+
+    color: #FFFFFF;
+
+
+}
+.game1 {
+background-image: url(images/Rectangle\ 6.jpg);
+}
+
+.game2 {background-image: url(images/Rectangle\ 7.jpg);
+
+}
+.game3 {background-image: url(images/Rectangle\ 8.png);
+
+}
