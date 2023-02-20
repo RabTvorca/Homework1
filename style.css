@@ -8,7 +8,7 @@
 body {
     font-family: "Montserrat", sans-serif;
 }
-.main {
+.offer {
     background-image:url(images/main.jpg) ;
     width: 100%;
     padding-top: 217px;
@@ -16,7 +16,7 @@ body {
     padding-left: 120px;
 
 }
-.Header {
+.offer__title {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -31,7 +31,7 @@ body {
     width: 708px;
 
 }
-.description {
+.offer__description {
     
     font-family: 'Montserrat';
 font-style: normal;
@@ -47,11 +47,11 @@ margin-bottom: 44px;
 .description-select {
 font-weight: bold;
 }
-.main-button {
+.offer__button {
     background: #9C0332;
 border-radius: 30px;
-width: 234.06px;
-height: 48.6px;
+width: 234px;
+height: 48px;
 border: none;
 font-family: 'Montserrat';
 font-style: normal;
@@ -63,15 +63,21 @@ line-height: 22px;
 color: #FFFFFF;
 }
 
-.games-section {
-    display: flex;
+.games {
     background-color: #000915;
-    flex-wrap: wrap;
     padding: 128px 120px;
-    gap: 32px;
 }
 
-.games {
+.games-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    list-style-type: none;
+
+
+}
+
+.games-list__item {
     background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
     width: 379px;
     height: 300px;
@@ -92,13 +98,13 @@ color: #FFFFFF;
 
 
 }
-.game1 {
+.games-list__item:nth-of-type(1) {
 background-image: url(images/Rectangle\ 6.jpg);
 }
 
-.game2 {background-image: url(images/Rectangle\ 7.jpg);
+.games-list__item:nth-of-type(2) {background-image: url(images/Rectangle\ 7.jpg);
 
 }
-.game3 {background-image: url(images/Rectangle\ 8.png);
+.games-list__item:nth-of-type(3) {background-image: url(images/Rectangle\ 8.png);
 
 }
