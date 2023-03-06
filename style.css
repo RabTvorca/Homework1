@@ -108,3 +108,38 @@ background-image: url(images/Rectangle\ 6.jpg);
 .games-list__item:nth-of-type(3) {background-image: url(images/Rectangle\ 8.png);
 
 }
+
+@media screen and (max-width: 480px){
+   
+.offer{
+padding: 239px 16px 33px 16px ;
+text-align: center;
+
+}
+    
+.offer__title {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    width: 100%;
+}
+.offer__description{
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    width: 100%;
+}
+
+.games {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.games-list__item{
+    width: 100%;
+}
+
+
+}
+
+
