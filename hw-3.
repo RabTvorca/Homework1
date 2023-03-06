@@ -1,0 +1,58 @@
+// задача 1.
+let i = 0;
+
+while (i <2) {
+	console.log('привет!');
+	i++;
+};
+
+// задача 2.
+let a = 1;
+
+while (a < 6) {
+	console.log(a);
+	a++;
+};
+
+// задача 3.
+let b = 7;
+
+while (b < 23) {
+	console.log(b);
+	b++;
+}
+
+// задача 4.
+const obj = {
+    'Коля':200,
+    'Вася':300,
+    'Петя':400
+};
+
+for (let name in obj) {
+ console.log(`${name}-зарплата ${obj[name]} долларов`);
+    };
+
+// задача 5.
+let n = 1000;
+let num =0;
+while (n>50) {
+    n=n/2;
+    console.log(n);
+    num=num+1;
+    console.log(num)
+};
+
+// задача 6.
+let friday = 1;
+while (friday<31) {
+    friday=friday+7;
+    console.log(`Сегодня пятница, ${friday}-е число. Необходимо подготовить отчет.`)
+};
+
+
+
+
+
+
+

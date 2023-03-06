@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+.offer {
+    background-image:url(images/main.jpg) ;
+    width: 100%;
+    padding-top: 217px;
+    padding-bottom: 493px;
+    padding-left: 120px;
+
+}
+.offer__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+
+
+    color: #FFFFFF;
+    width: 708px;
+
+}
+.offer__description {
+    
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 32px;
+/* or 178% */
+color: #FFFFFF;
+width: 481px;
+margin-bottom: 44px;
+
+}
+.description-select {
+font-weight: bold;
+}
+.offer__button {
+    background: #9C0332;
+border-radius: 30px;
+width: 234px;
+height: 48px;
+border: none;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+.games {
+    background-color: #000915;
+    padding: 128px 120px;
+}
+
+.games-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    list-style-type: none;
+
+
+}
+
+.games-list__item {
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
+    width: 379px;
+    height: 300px;
+    border-radius: 16px;
+    display: flex;
+    align-items: flex-end;
+    padding: 32px;
+    background-size: cover;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+
+    color: #FFFFFF;
+
+
+}
+.games-list__item:nth-of-type(1) {
+background-image: url(images/Rectangle\ 6.jpg);
+}
+
+.games-list__item:nth-of-type(2) {background-image: url(images/Rectangle\ 7.jpg);
+
+}
+.games-list__item:nth-of-type(3) {background-image: url(images/Rectangle\ 8.png);
+
+}
+
+@media screen and (max-width: 480px){
+   
+.offer{
+padding: 239px 16px 33px 16px ;
+text-align: center;
+
+}
+    
+.offer__title {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    width: 100%;
+}
+.offer__description{
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    width: 100%;
+}
+
+.games {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.games-list__item{
+    width: 100%;
+}
+
+
+}
+
+
