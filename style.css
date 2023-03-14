@@ -121,6 +121,63 @@ background-image: url(images/Rectangle\ 6.jpg);
 
 }
 
+.seasons{
+
+background: #000915;
+display: flex;
+padding: 233px 116px 233px 120px;
+}
+
+.seasons__title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+    
+}
+
+.seasons__description{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 32px;
+/* or 178% */
+
+color: #FFFFFF;
+margin: 32px 0;
+width: 50%;
+}
+
+.seasons__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #9C0332;
+    border-radius: 30px;
+    width: 234px;
+    height: 48px;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.seasons__button:hover{
+    cursor: pointer;  
+    background: #EB443F;
+    transition: .5s;
+}
 @media screen and (max-width: 480px){
    
 .offer{
@@ -152,6 +209,25 @@ text-align: center;
 }
 
 
+.seasons{
+    flex-direction: column;
+    text-align: center;
+    padding: 51px 16px 85px 16px;
+}
+.seasons__description{
+    width: 100%;
+
+}
+.seasons__button{
+    margin: 0 auto;
+    margin-bottom: 77px;
+}
+.seasons__img img{
+    width: 100%;
+}
+.seasons__title span{
+    display: none;
+}
 }
 
 
